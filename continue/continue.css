@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@600&family=Lora&family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Upright', serif;
+}
+body {
+    background-color: #0C0C0C;
+}
+.rasm {
+    width: 100%;
+    background-image: url(../gericht/img/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    width: 100%;
+    padding: 32px 120px;
+}
+.display {
+    display: flex;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+.nawrap {
+    justify-content: space-between;
+    align-items: center;
+}
+.align {
+    align-items: center;
+}
+.list {
+    list-style-type: none;
+    gap: 32px;
+}
+.color {
+    color: #FFFFFF;
+}
+.link {
+    text-decoration: none;
+}
+.upstick {
+    height: 57px;
+    width: 0.2px;
+    background-color: #FFFFFF;
+}
+.topholder {
+    gap: 50px;    
+}
+.normal {
+    font-style: normal;
+}
+.sweight {
+    font-weight: 400;
+}
+.ssize {
+    font-size: 16px;
+}
+.space {
+    letter-spacing: 0.04em;
+}
+.bheight {
+    line-height: 175%;
+}
+.bspace {
+    letter-spacing: 0.05em;
+}
+.mweight {
+    font-weight: 600;
+}
+.bweight {
+    font-weight: 700;
+}
+.bsize {
+    font-size: 44px;
+}
+.sheight {
+    line-height: 130%;
+}
+.vbsize {
+    font-size: 181px;
+}
+/* navbar end */
+/* header start */
+.header {
+    justify-content: center;
+    align-items: center;   
+    padding-top: 32px;
+    padding-bottom: 85px;
+    /* text-align: center; */
+}
+.hero {
+    width: 1702px;   
+    position: relative;
+    /* background-color: #DCCA87; */
+    padding-bottom: 53px;
+    height: fit-content;
+}
+.headwrap {
+    padding: 0 217px;
+    width: 1068px;    
+}
+.photo {
+    position: relative;
+    left: 230px;
+}
+.rocks { 
+    position: absolute;
+    z-index: 1500;
+    width: 1068px;     
+    top: 300px;   
+}
+.scroll {
+    color: #DCCA87;
+}
+.medsize {
+    font-size: 18px;
+}
+.mindeg {
+    transform: rotate(-90deg);
+}
+.feature {
+    font-feature-settings: 'tnum' on, 'lnum' on;
+}
+.pldeg {
+    transform: rotate(90deg);
+}
+.gcolor {
+    color: #F5EFDB;
+}
+.bar {    
+    top: 200px;
+}
+.gericht {    
+    left: -10px;
+    top: 100px;    
+}
+.data {
+    position: absolute;
+}
+.bottom {     
+    text-transform: uppercase;    bottom: 0;
+    left: 40%;    
+}
+.right {
+    right: -20px;
+    top: 700px;
+}
+.another {
+    width: 1px;
+    height: 61px;
+    background-color: #DCCA87;
+    z-index: 1500;
+    bottom: 30px;
+    left: 41.5%;
+}
+.gold {
+    background-color: #DCCA87;
+}
+/* header end */
+/* book start */
+.class {
+    position: relative;
+    left: 2000px;
+    top: -30px;
+}
+.reservation {    
+    padding-bottom: 152px;
+}
+.column {
+    flex-direction: column;
+}
+.justify {
+    justify-content: center;
+}
+.reswrap {
+    background: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);    
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);    
+    gap: 64px;
+    padding-bottom: 56px;
+}
+.norsize {
+    font-size: 64px;
+}
+.litspace {
+    letter-spacing: 0.03em; 
+}
+.table {
+    margin-top: 8px;            
+} 
+.text {
+    text-align: center;
+}
+.title {
+    margin-top: 48px;    
+}
+.family {
+    font-family: 'Cormorant Upright';
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.ttsize {
+    font-size: 23px;
+}
+.res {          
+    margin-bottom: 8px;
+}
+.black {
+    background-color: black; 
+}
+.form {         
+    width: fit-content;
+    height: fit-content;    
+    gap: 32px;
+    
+}
+.colora {
+    color: #AAAAAA; 
+}
+.input {
+    width: 412px;
+    height: 60px;    
+    text-align: left;        
+}
+.now {     
+    padding: 8px 32px;    
+    border: 1px solid #DCCA87; 
+    margin-bottom: 48px;     
+}
+/* book end */
+/* about start */
+.about {
+    background-image: url(../gericht/img/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 79px;    
+}
+.near {
+    position: relative;
+    left: 550px;
+}
+.aboutwrap {
+    gap: 143px;
+    position: relative;
+}
+.sepimg {      
+    position: relative;
+    top: 110px;
+}
+.teximg {    
+    gap: 40px;
+}
+.writeholder {
+    gap: 32px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.titleholder {
+    justify-content: flex-start;
+    align-items: flex-start;    
+    gap: 8px;
+}
+.know {    
+    color: black;
+    padding: 8px 32px;
+}
+/* about end */
+/* poision start */
+.poision {
+    padding-top: 201px;
+    padding-bottom: 152px;
+}
+.powrap {
+    gap: 64px;
+}
+.category {
+    gap: 33px;
+}
+/* poision end */
+/* happy start */
+.happy {
+    background-image: url(./img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 330px;
+    padding-bottom: 330px;    
+}
+.usize {
+    font-size: 32px;
+}
+.gaptt {
+    gap: 32px;
+}
+.tbsize {
+    font-size: 128px;
+}
+/* happy end */
+/* special start */
+.topone {
+    position: relative;
+    left: 2000px;
+    top: 100px;
+}
+.row {
+    flex-direction: row;
+}
+.ffsize {
+    font-size: 45px;
+}
+.flexstart {
+    align-items: flex-start;
+}
+.card1 {
+    gap: 48px;    
+    width: 412px;
+    height: 596px;     
+}
+.drink {    
+    gap: 40px;    
+    width: 412px;
+    height: 490px;    
+}
+.name {     
+    gap: 8px;    
+    width: 412px;
+    height: 66px;    
+}
+.palka {
+    background-color: white;
+    width: 119px;
+    height: 1px;
+}
+.bottomone {
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+/* special end */
+/* contact start */
+.contact {
+    background-image: url(../gericht/img/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.conwrap {
+    gap: 220px;
+}
+.leftside {
+    justify-content: flex-start;
+    align-items: flex-start;    
+}
+.line {
+    width: 513px;
+}
+.inholder {
+    gap: 16px;
+}
+/* contact end */
+/* subscribe start */
+.minus {
+    position: relative;
+    left: 1240px; 
+    top: 250px;   
+}
+.inliner {
+    position: relative;
+    top: 221px;
+    background: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);    
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);    
+    padding: 64px;
+}
+.to {
+    gap: 24px;
+}
+.send {
+    gap: 8px;
+}
+.form {
+    background: #0C0C0C;     
+    gap: 32px;    
+    
+}
+.email {   
+    padding-left: 30px;
+    border: 1px solid #F5EFDB;
+    outline: none;
+    background-color: black;
+    width: 635px;
+    height: 60px;
+}
+/* subscribe end */
+/* footer start */
+.rectangle {
+    padding-top: 374px;
+    height: 837px;
+    background-image: url(../gericht/img/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footwrap {
+    justify-content: space-between;
+}
+.lists1 {
+    gap: 24px;
+}
+.lists2 {
+    position: relative;
+    top: -30px;
+    width: 438px;
+    height: 236px;
+    gap: 32px;
+}
+.need {
+    gap: 8px;
+}
+.need2 {
+    gap: 16px;
+}
+.route {
+    text-align: center;
+}
+.past {
+    font-size: 32px;   
+    color: #F5EFDB;    
+}
+.strange {
+    text-transform: uppercase;          
+}
+.sole {
+    margin-top: 66px;
+    padding: 16px;    
+}
+.iconholder {    
+    gap: 20px;
+}
+.other {
+    position: relative;
+    right: -40px;
+}
+/* footer end */
+

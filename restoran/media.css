@@ -1,0 +1,223 @@
+@media (max-width:1024px){
+    /* .alltogether {
+        width: 90%;
+    } */
+    /* nav {
+        width: 90%;
+    } */
+    /* .container {
+        width: 90%;
+    } */
+    .cardwrap {
+        gap: 10px;
+        justify-content: center;
+    }
+    .text {
+        margin-left: 0;
+    }
+    .picwrap {
+        justify-content: center;
+    }
+    .all {
+        padding: 24px 20px 40px 20px;
+        width: 235px;
+    }
+    .small {
+        left: 370px;
+    }
+    .topwrap {
+        margin-bottom: 140px;
+    }
+    .huge {
+        position: absolute;
+        top: -145px;
+        left: 29%;
+    }
+    .tiny {
+        left: 362px;
+        top: -125px;
+    }
+    .line3 {
+        left: 47%;
+        bottom: 10px;
+    }
+    .personwrap {
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+    .bottomdiv {
+        gap: 20px;
+    }
+    .total {
+        width: 400px;
+    }
+    .internetwrap {
+        gap: 20px;
+        justify-content: center;
+    }
+    .internet {
+        width: 320px;
+        
+    }
+    .internet1 {
+        width: 300px;
+    }
+    .photo img {
+        width: 300px;
+        height: 236px;
+        border-radius: 6px;
+        object-fit: cover;
+    }
+    .minilist2 {
+        gap: 24px;
+    }
+}
+@media(max-width:768px) {
+
+    .aboutwrap {
+        height: 1025px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .about {
+        margin-left: 0;
+    }
+    .insidetitle {
+        left: 122px;
+    }
+    .text {
+        height: 735px;
+        width: 535px;
+    }
+    .aboutp {
+        width: 571px;
+        height: 100px;
+    }
+    .aboutimg {
+        flex-wrap: wrap;
+        gap: 0px;
+        height: 535px;
+    }
+    .small {
+        left: 241px;
+    }
+    .cardwrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+    .huge {
+        left: 21.5%;
+    }
+    .tiny {
+        left: 233px;
+    }
+    .bottomdiv {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mini {
+        left: 192px;
+    }
+    .internetwrap {
+        flex-wrap: wrap;
+    }
+    .footwrap {
+        margin: 0 auto;
+        width: 600px;
+    }
+    .minilist2 {
+        width: 600px;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:425px) {
+    .alltogether {
+        height: 830px;
+        /* width: 80%; */
+    }   
+    .list {
+        display: none;
+    }
+    #burger {
+        color: white;
+        display: block;
+    }
+    .headtitle {
+        font-size: 40px;
+    }
+    .headp {
+        width: 469px;
+        font-size: 12px;
+    }
+    span {
+        font-size: 40px;
+    }
+    .minilist {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .text {
+        width: 420px;
+    }
+    .titles {
+        width: 420px;
+        height: 115px;
+    }
+    .aboutp {
+        width: 371px;
+        height: 116px;
+        font-size: 12px;
+    }
+    .insidetitle {
+        left: 23px;
+        top: 47px;
+        font-size: 22px;
+    }
+    .small {        
+        left: 74px;
+    }
+    .tiny {
+        left: 45px;
+    }
+    .huge {
+        letter-spacing: 0.1em;
+        left: 0.5%;
+    }
+    .second {
+        left: 4px;
+    }
+    .enormous {
+        letter-spacing: 0em;
+    }
+    .motion {
+        font-size: 27px;
+        left: 4px;
+    }
+    .mini {
+        left: 60px;
+    }
+    .itemright img {
+        width: 420px;
+        object-fit: cover;
+    }    
+    .footwrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .minilist2 {
+        height: 235px;
+        width: 420px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
